@@ -1,0 +1,23 @@
+[
+    {
+        "username": "user1",
+        "source_ip": "192.0.2.25",
+        "failure_count": 5,
+        "first_seen": "2026-10-23T10:00:01",
+        "last_seen": "2026-10-23T10:00:13",
+        "risk_score": 50,
+        "severity": "MEDIUM",
+        "rule": "Repeated Failed Logins",
+        "reason": "Repeated failed logins within 5 minutes."
+    },
+    {
+        "username": "user1",
+        "source_ip": "192.0.2.25",
+        "failure_count": 5,
+        "successful_login": "2026-10-23T10:03:00",
+        "risk_score": 100,
+        "severity": "CRITICAL",
+        "rule": "Failed Logins Followed by Success",
+        "reason": "Repeated failed logins followed by a successful login within 5 minutes."
+    }
+]

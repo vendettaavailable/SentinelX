@@ -1,0 +1,9 @@
+
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+logs/
+data/windows_auth_events.csv
+reports/windows_alerts.json

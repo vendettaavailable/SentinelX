@@ -1,0 +1,9 @@
+timestamp,username,source_ip,event_type,host
+2026-10-23T10:00:01,user1,192.0.2.25,failed_login,WORKSTATION-01
+2026-10-23T10:00:04,user1,192.0.2.25,failed_login,WORKSTATION-01
+2026-10-23T10:00:07,user1,192.0.2.25,failed_login,WORKSTATION-01
+2026-10-23T10:00:10,user1,192.0.2.25,failed_login,WORKSTATION-01
+2026-10-23T10:00:13,user1,192.0.2.25,failed_login,WORKSTATION-01
+2026-10-23T10:01:00,user2,192.0.2.50,failed_login,WORKSTATION-01
+2026-10-23T10:02:00,user3,192.0.2.60,successful_login,WORKSTATION-01
+2026-10-23T10:03:00,user1,192.0.2.25,successful_login,WORKSTATION-01
